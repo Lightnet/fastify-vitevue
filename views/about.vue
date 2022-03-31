@@ -1,12 +1,11 @@
 <template setup>
-  <a href="/about">About</a><br/>
-  <label>Hello World!</label><br/>
-  <label>Fastify</label><br/>
+  <a href="/">Home</a>
+  <label>About!</label>
   
 </template>
 
 <script>
-export const path = '/';
+export const path = '/about';
 //import api from '../api.mjs';
 //const posts = await api.getPosts()
 //export default {
